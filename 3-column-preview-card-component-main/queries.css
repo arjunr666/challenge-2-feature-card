@@ -1,0 +1,75 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .card {
+    padding: 2.8rem;
+  }
+}
+
+@media (max-width: 67em) {
+  html {
+    font-size: 50%;
+  }
+
+  .card {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width: 57em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .card {
+    padding: 1.4rem;
+  }
+}
+
+@media (max-width: 52em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .grid {
+    width: 65%;
+  }
+}
+
+@media (max-width: 34em) {
+  .grid {
+    width: 42%;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-feature {
+    margin: 5rem auto;
+  }
+
+  .card {
+    padding: 4rem;
+  }
+
+  .section-feature div:first-child {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 0;
+  }
+
+  .section-feature div:last-child {
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-top-right-radius: 0;
+  }
+}
